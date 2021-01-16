@@ -1,0 +1,21 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+html,
+body {
+    min-height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}

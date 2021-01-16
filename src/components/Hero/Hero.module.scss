@@ -1,0 +1,47 @@
+@import "../../style/variables";
+
+.Hero {
+    background-color: #ffffff;
+    background-image: url(http://goiar.com/wp-content/uploads/2019/09/ryse-bg.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .Main {
+        display: flex;
+        max-width: 1140px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 155px 20px;
+        .Text {
+            width: 100%;
+            padding: 1rem;
+            h1 {
+                color: #ffffff;
+                font-size: 43px;
+                text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+                line-height: 1;
+                margin-bottom: 1rem;
+            }
+
+            span {
+                color: #f4ecf8;
+                font-size: 18px;
+            }
+        }
+        .Illustration {
+            width: 100%;
+            img {
+                height: auto;
+                width: auto;
+                max-width: 100%;
+                border: none;
+            }
+        }
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+        @media (max-width: 767px) {
+            padding: 50px 0px 114px 0px;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+@import "../../style/variables";
+.Solutions {
+    display: flex;
+    padding: 0 15%;
+    position: relative;
+    bottom: 150px;
+
+    .Illustration {
+        padding: 1rem;
+        width: 100%;
+        display: grid;
+        gap: 20px;
+        grid-template-areas:
+            "First Third"
+            "Second Third";
+        .First {
+            grid-area: First;
+        }
+        .Second {
+            grid-area: Second;
+        }
+        .Third {
+            grid-area: Third;
+            display: flex;
+            align-items: center;
+        }
+    }
+    .Text {
+        width: 100%;
+        display: flex;
+        place-items: center;
+        margin-left: 5rem;
+    }
+    @media (max-width: 767px) {
+        flex-direction: column;
+        bottom: 0;
+
+        .Illustration {
+            display: flex;
+            flex-direction: column;
+        }
+        .Text {
+            margin-left: 0;
+        }
+    }
+}

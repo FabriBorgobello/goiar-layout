@@ -1,0 +1,47 @@
+@import "../../style/variables";
+
+.NavBar {
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+        margin: 0;
+    }
+    .MenuIcon {
+        display: none;
+    }
+    .Menu {
+        display: flex;
+        margin: 0;
+        .Option {
+            margin-right: 35px;
+            color: $color-white;
+            i {
+                margin-left: 0.5rem;
+            }
+        }
+    }
+    @media (max-width: 992px) {
+        .Menu {
+            display: none;
+        }
+        .MenuIcon {
+            display: block;
+            margin: 0;
+            color: $color-white;
+        }
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    @media (min-width: 768px) {
+        width: 750px;
+    }
+    @media (min-width: 992px) {
+        width: 970px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 1170px;
+    }
+}

@@ -1,0 +1,23 @@
+@import "../../style/variables";
+
+.TextCard {
+    .Tagline {
+        color: $color-title;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 45px;
+        letter-spacing: 1.7px;
+    }
+    .Title {
+        color: $color-title;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: -0.8px;
+        margin-bottom: 0.8rem;
+    }
+    .Content {
+        color: $color-text;
+        line-height: 1.8;
+    }
+}
