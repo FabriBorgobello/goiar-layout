@@ -7,6 +7,7 @@ import Clients from "./components/Clients/Clients";
 import Cta from "./components/Cta/Cta";
 import Footer from "./components/Footer/Footer";
 import TopCta from "./components/TopCta/TopCta";
+import BackToTop from "./components/Shared/BackToTop";
 
 export default function App() {
     return (
@@ -19,6 +20,7 @@ export default function App() {
             <Cta />
             <Clients />
             <Footer />
+            <BackToTop />
         </div>
     );
 }

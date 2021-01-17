@@ -46,4 +46,12 @@
             margin-left: 0;
         }
     }
+    @media (min-width: 768px) and (max-width: 1024px) {
+        flex-direction: column;
+        bottom: 0;
+        margin-bottom: 3rem;
+        .Text {
+            margin-left: 0;
+        }
+    }
 }
