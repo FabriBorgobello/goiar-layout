@@ -8,8 +8,12 @@ import Cta from "./components/Cta/Cta";
 import Footer from "./components/Footer/Footer";
 import TopCta from "./components/TopCta/TopCta";
 import BackToTop from "./components/Shared/BackToTop";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function App() {
+    AOS.init();
+
     return (
         <div className="Container">
             <Hero />

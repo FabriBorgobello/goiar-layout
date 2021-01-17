@@ -4,7 +4,7 @@ import CicoElement from "./CicoElement";
 
 const Cico = () => {
     return (
-        <div className={styles.Cico}>
+        <article className={styles.Cico}>
             <div className={styles.Text}>
                 <TextCard title="¿ Qué es CICO ?" tagline="Fintech Factory">
                     CICO es un modelo de arquitectura y patrones de <strong>microservicios</strong> que permite{" "}
@@ -24,7 +24,7 @@ const Cico = () => {
             <div className={styles.Illustration}>
                 <img src="https://goiar.com/wp-content/uploads/2020/03/building.png" alt="building" />
             </div>
-        </div>
+        </article>
     );
 };
 

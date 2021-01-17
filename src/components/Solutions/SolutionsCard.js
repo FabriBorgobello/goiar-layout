@@ -2,9 +2,9 @@ import styles from "./SolutionsCard.module.scss";
 
 const SolutionsCard = ({ imgSrc, title, children }) => {
     return (
-        <div className={styles.SolutionsCard}>
+        <div data-aos="fade-right" className={styles.SolutionsCard}>
             <img src={imgSrc} alt="fintech" />
-            <h3 className={styles.Title}>{title}</h3>
+            <h2 className={styles.Title}>{title}</h2>
             <p className={styles.Content}>{children}</p>
         </div>
     );

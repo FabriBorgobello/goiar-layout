@@ -4,7 +4,7 @@ import styles from "./Solutions.module.scss";
 
 const Solutions = () => {
     return (
-        <div className={styles.Solutions}>
+        <article className={styles.Solutions}>
             <div className={styles.Illustration}>
                 <div className={styles.First}>
                     <SolutionsCard
@@ -36,7 +36,7 @@ const Solutions = () => {
                     enlaces entre sí para poder funcionar como una solución integral real.
                 </TextCard>
             </div>
-        </div>
+        </article>
     );
 };
 

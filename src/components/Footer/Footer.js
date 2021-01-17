@@ -1,7 +1,7 @@
 import styles from "./Footer.module.scss";
 const Footer = () => {
     return (
-        <div className={styles.Footer}>
+        <footer className={styles.Footer}>
             <div className={styles.Top}>
                 <div className={styles.Adress}>
                     <p>Av de Mayo 749</p>
@@ -15,7 +15,7 @@ const Footer = () => {
             <div className={styles.Bottom}>
                 <p>ESTA NO ES LA WEB OFICIAL DE GOIAR. ES UN PROYECTO CON FINES EXCLUSIVAMENTE ACADÉMICOS</p>
             </div>
-        </div>
+        </footer>
     );
 };
 

@@ -19,7 +19,7 @@ const Clients = () => {
     ];
 
     return (
-        <div className={styles.Clients}>
+        <article className={styles.Clients}>
             <h3 className={styles.Tagline}>Nuestros Clientes</h3>
             <h2 className={styles.Title}>Colaboramos con clientes en toda América Latina</h2>
             <div className={styles.Carousel}>
@@ -32,7 +32,7 @@ const Clients = () => {
                     );
                 })}
             </div>
-        </div>
+        </article>
     );
 };
 

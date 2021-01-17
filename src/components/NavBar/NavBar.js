@@ -2,8 +2,8 @@ import styles from "./NavBar.module.scss";
 
 const NavBar = () => {
     return (
-        <div className={styles.NavBar}>
-            <img src="http://goiar.com/wp-content/uploads/2020/03/Logo_250x60-e1607537605699.png" alt="goiar-logo" />
+        <nav className={styles.NavBar}>
+            <img src="https://goiar.com/wp-content/uploads/2020/03/Logo_250x60-e1607537605699.png" alt="goiar-logo" />
             {/* <i className={`fas fa-bars ${styles.MenuIcon}`}></i> */}
             <span className={styles.MenuIcon}>&#9776;</span>
             <ul className={styles.Menu}>
@@ -17,7 +17,7 @@ const NavBar = () => {
                 </li>
                 <li className={styles.Option}>Contacto</li>
             </ul>
-        </div>
+        </nav>
     );
 };
 

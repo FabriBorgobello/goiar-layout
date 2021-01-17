@@ -3,7 +3,7 @@ import styles from "./Integrations.module.scss";
 
 const Integrations = () => {
     return (
-        <div className={styles.Integration}>
+        <article className={styles.Integration}>
             <div className={styles.Text}>
                 <h3 className={styles.Tagline}>Integraciones</h3>
                 <h2 className={styles.Title}>Ecosistema de integraciones</h2>
@@ -34,7 +34,7 @@ const Integrations = () => {
             <div className={styles.Illustration}>
                 <img src="https://goiar.com/wp-content/uploads/2019/09/new-image1.png" alt="integration" />
             </div>
-        </div>
+        </article>
     );
 };
 

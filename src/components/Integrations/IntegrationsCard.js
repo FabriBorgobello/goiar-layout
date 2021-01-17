@@ -2,7 +2,7 @@ import styles from "./IntegrationsCard.module.scss";
 
 const IntegrationsCard = ({ title, children }) => {
     return (
-        <div className={styles.IntegrationsCard}>
+        <div className={styles.IntegrationsCard} data-aos="fade-right">
             <div className={styles.Icon}>
                 <span>✔</span>
             </div>
