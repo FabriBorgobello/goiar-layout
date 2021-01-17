@@ -1,0 +1,81 @@
+@import "../../style/variables";
+
+.Integration {
+    display: flex;
+    align-items: center;
+    padding: 0 5% 0 15%;
+    margin-top: 3rem;
+
+    .Text {
+        width: 80%;
+        .Tagline {
+            color: $color-title;
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 45px;
+            letter-spacing: 1.7px;
+        }
+        .Title {
+            color: $color-title;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 45px;
+            letter-spacing: -0.8px;
+            margin-bottom: 0.8rem;
+        }
+        .Extra {
+            display: grid;
+            gap: 20px;
+            grid-template-areas:
+                "First Second"
+                "Third Fourth"
+                "Fifth Fifth";
+            & > * {
+                margin: 0;
+            }
+            .First {
+                grid-area: First;
+            }
+            .Second {
+                grid-area: Second;
+            }
+            .Third {
+                grid-area: Third;
+            }
+            .Fourth {
+                grid-area: Fourth;
+            }
+            .Fifth {
+                grid-area: Fifth;
+            }
+        }
+    }
+    .Illustration {
+        width: 100%;
+        margin-left: 2rem;
+        img {
+            width: 100%;
+        }
+    }
+    @media (max-width: 767px) {
+        padding: 0 10%;
+
+        flex-direction: column;
+        .Illustration {
+            margin: 3rem 0 3rem 0;
+        }
+        .Text {
+            .Tagline {
+                text-align: center;
+            }
+            .Title {
+                text-align: center;
+            }
+            .Extra {
+                margin-top: 2rem;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

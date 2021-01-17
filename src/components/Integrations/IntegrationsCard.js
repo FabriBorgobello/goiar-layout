@@ -1,9 +1,15 @@
-const IntegrationsCard = () => {
+import styles from "./IntegrationsCard.module.scss";
+
+const IntegrationsCard = ({ title, children }) => {
     return (
-        <div className="Extra-element">
-            <div>Tick</div>
-            <h3>OnBoarding</h3>
-            <p>Prueba de vida, cruce de datos, validación de identidad</p>
+        <div className={styles.IntegrationsCard}>
+            <div className={styles.Icon}>
+                <span>✔</span>
+            </div>
+            <div className={styles.Content}>
+                <h3 className={styles.Title}>{title}</h3>
+                <p className={styles.Text}>{children}</p>
+            </div>
         </div>
     );
 };

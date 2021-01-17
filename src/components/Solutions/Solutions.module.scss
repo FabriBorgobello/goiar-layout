@@ -1,9 +1,10 @@
 @import "../../style/variables";
 .Solutions {
     display: flex;
-    padding: 0 15%;
+    padding: 0 14%;
     position: relative;
     bottom: 150px;
+    margin-bottom: -75px;
 
     .Illustration {
         padding: 1rem;
@@ -34,6 +35,8 @@
     @media (max-width: 767px) {
         flex-direction: column;
         bottom: 0;
+        margin-bottom: 0px;
+        padding: 0 10%;
 
         .Illustration {
             display: flex;

@@ -1,0 +1,51 @@
+@import "../../style/variables";
+
+.IntegrationsCard {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px 20px 20px 20px;
+    border-radius: 05px 05px 05px 05px;
+    display: flex;
+    width: 100%;
+
+    .Icon {
+        width: 60px;
+        display: flex;
+        align-items: flex-start;
+        span {
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            font-size: 1.1rem;
+            background-color: #3597f5;
+            color: $color-white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+    .Content {
+        width: 100%;
+        .Title {
+            color: $color-title;
+            margin-bottom: 0.8rem;
+        }
+
+        .Text {
+            color: $color-text;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        .Icon {
+            margin: 0 0 1rem 0;
+        }
+    }
+}
