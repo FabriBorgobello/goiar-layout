@@ -1,15 +1,12 @@
 @import "../../style/variables";
 
 .NavBar {
-    padding: 25px 3%;
+    padding: 30px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     img {
         margin: 0;
-    }
-    .MenuIcon {
-        display: none;
     }
     .Menu {
         display: flex;
@@ -17,12 +14,18 @@
         .Option {
             margin-right: 35px;
             color: $color-white;
+            cursor: pointer;
             i {
                 margin-left: 0.5rem;
             }
         }
     }
+    .MenuIcon {
+        display: none;
+    }
     @media (max-width: 992px) {
+        padding-right: 1rem;
+        padding-left: 1rem;
         .Menu {
             display: none;
         }
@@ -30,18 +33,13 @@
             display: block;
             margin-right: 0.5rem;
             color: $color-white;
+            font-size: 2rem;
         }
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
-    @media (min-width: 768px) {
-        width: 750px;
     }
     @media (min-width: 992px) {
         width: 970px;
     }
-
     @media (min-width: 1200px) {
-        width: 1170px;
+        width: 1080px;
     }
 }

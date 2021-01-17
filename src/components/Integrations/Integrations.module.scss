@@ -3,11 +3,10 @@
 .Integration {
     display: flex;
     align-items: center;
+    margin-top: 1rem;
     padding: 0 5% 0 15%;
-    margin-top: 3rem;
-
     .Text {
-        width: 80%;
+        width: 60%;
         .Tagline {
             color: $color-title;
             font-size: 13px;
@@ -16,12 +15,12 @@
             letter-spacing: 1.7px;
         }
         .Title {
+            margin-bottom: 0.8rem;
             color: $color-title;
             font-size: 28px;
             font-weight: 700;
             line-height: 45px;
             letter-spacing: -0.8px;
-            margin-bottom: 0.8rem;
         }
         .Extra {
             display: grid;
@@ -51,20 +50,20 @@
         }
     }
     .Illustration {
-        width: 100%;
         margin-left: 2rem;
+        width: 70%;
         img {
             width: 100%;
         }
     }
     @media (max-width: 767px) {
-        padding: 0 10%;
-
         flex-direction: column;
+        padding: 0 10%;
         .Illustration {
             margin: 3rem 0 3rem 0;
         }
         .Text {
+            width: 100%;
             .Tagline {
                 text-align: center;
             }
@@ -72,9 +71,9 @@
                 text-align: center;
             }
             .Extra {
-                margin-top: 2rem;
                 display: flex;
                 flex-direction: column;
+                margin-top: 2rem;
             }
         }
     }
