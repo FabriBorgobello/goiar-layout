@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/goiar-layout/static/css/main.49828ef6.chunk.css",
-    "main.js": "/goiar-layout/static/js/main.6e788601.chunk.js",
-    "main.js.map": "/goiar-layout/static/js/main.6e788601.chunk.js.map",
+    "main.css": "/goiar-layout/static/css/main.610f305f.chunk.css",
+    "main.js": "/goiar-layout/static/js/main.8ec0f9c5.chunk.js",
+    "main.js.map": "/goiar-layout/static/js/main.8ec0f9c5.chunk.js.map",
     "runtime-main.js": "/goiar-layout/static/js/runtime-main.d0086f1f.js",
     "runtime-main.js.map": "/goiar-layout/static/js/runtime-main.d0086f1f.js.map",
     "static/css/2.ec02d681.chunk.css": "/goiar-layout/static/css/2.ec02d681.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.59bcefcd.chunk.js.map": "/goiar-layout/static/js/2.59bcefcd.chunk.js.map",
     "index.html": "/goiar-layout/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/goiar-layout/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.49828ef6.chunk.css.map": "/goiar-layout/static/css/main.49828ef6.chunk.css.map",
+    "static/css/main.610f305f.chunk.css.map": "/goiar-layout/static/css/main.610f305f.chunk.css.map",
     "static/js/2.59bcefcd.chunk.js.LICENSE.txt": "/goiar-layout/static/js/2.59bcefcd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d0086f1f.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.59bcefcd.chunk.js",
-    "static/css/main.49828ef6.chunk.css",
-    "static/js/main.6e788601.chunk.js"
+    "static/css/main.610f305f.chunk.css",
+    "static/js/main.8ec0f9c5.chunk.js"
   ]
 }
