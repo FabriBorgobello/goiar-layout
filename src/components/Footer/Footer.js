@@ -1,4 +1,4 @@
-import styles from './Footer.module.scss'
+import styles from "./Footer.module.scss";
 const Footer = () => {
     return (
         <div className={styles.Footer}>
@@ -13,7 +13,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.Bottom}>
-                <p>Powered by © Goiar S.A.S - 2020 - All Rights Reserved</p>
+                <p>ESTA NO ES LA WEB OFICIAL DE GOIAR. ES UN PROYECTO CON FINES EXCLUSIVAMENTE ACADÉMICOS</p>
             </div>
         </div>
     );

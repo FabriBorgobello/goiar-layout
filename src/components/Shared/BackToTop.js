@@ -17,8 +17,12 @@ const BackToTop = () => {
     };
 
     return (
-        <div className={styles.FabContainer} style={{ height: 40, display: showScroll ? "flex" : "none" }}>
-            <i className={`fas fa-arrow-up scrollTop ${styles.FabIcon}`} onClick={scrollTop} />
+        <div
+            className={styles.FabContainer}
+            onClick={scrollTop}
+            style={{ height: 40, display: showScroll ? "flex" : "none" }}
+        >
+            <i className={`fas fa-arrow-up scrollTop ${styles.FabIcon}`} />
         </div>
     );
 };
