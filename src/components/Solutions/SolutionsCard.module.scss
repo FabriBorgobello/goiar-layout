@@ -9,11 +9,8 @@
     text-align: center;
     position: relative;
     top: 0;
-    transition: top ease 0.5s;
     min-width: 200px;
-    &:hover {
-        top: -10px;
-    }
+
     .Title {
         margin-top: 10px;
         margin-bottom: 15px;
